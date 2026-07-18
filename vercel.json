@@ -1,5 +1,10 @@
 {
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "global.css", "use": "@vercel/static" }
+  ],
   "routes": [
-    { "src": "/global.css", "dest": "/global.css" }
+    { "src": "/global.css", "dest": "/global.css" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
