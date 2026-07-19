@@ -10,6 +10,6 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: radial-gradient(circle at top right, rgba(0,123,255,0.15), transparent 70%);
+  background: linear-gradient(160deg, #0a1a2f 0%, #0b3b4a 50%, #0e5b5e 100%);
   z-index: -1;
 }
